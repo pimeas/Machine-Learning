@@ -1,24 +1,37 @@
 # Machine Learning Regression Using Gaussian Processes
 #### Generating the same data from "MAP and Basis Functions.md" and computing the Gaussian process prediction of sequential input data.
 #### Using a set kernel with theta values and determining the effect of beta. 
-![image](https://github.com/sammycpark/Machine-Learning-Regression/assets/112512011/3be537c9-6d31-4c2b-bd97-533fd27d3d6c)
-![image](https://github.com/sammycpark/Machine-Learning-Regression/assets/112512011/8b4bf84f-c24e-4076-aecf-16c4b826b558)
-![image](https://github.com/sammycpark/Machine-Learning-Regression/assets/112512011/b8bdcb40-4256-4e6f-bab4-d39f0c5ef827)
-![image](https://github.com/sammycpark/Machine-Learning-Regression/assets/112512011/1af6481d-aaa9-42af-902e-1408201bb52f)
-![image](https://github.com/sammycpark/Machine-Learning-Regression/assets/112512011/48dff541-06ff-4d73-bc9e-81045ebb9d12)
+![image](https://github.com/pimeas/Machine-Learning/assets/112512011/3356dbdd-8ce0-45a0-8a91-82cc0e5617bc)
+![image](https://github.com/pimeas/Machine-Learning/assets/112512011/26a9588f-1bfc-4e18-bda7-8ee4b1213b05)
+![image](https://github.com/pimeas/Machine-Learning/assets/112512011/f39c3a1b-e3bb-45dd-9727-521e0b39a18f)
+![image](https://github.com/pimeas/Machine-Learning/assets/112512011/14b5a198-9c29-4f14-bbd6-47fd42ff4b26)
+![image](https://github.com/pimeas/Machine-Learning/assets/112512011/daf0c9be-f163-462c-96ac-86c31762e5cf)
+
+
 #### With a beta value of 0.5, the graphs depict the 1st, 15th, 25th, 35th and 50th data inputted.
-![image](https://github.com/sammycpark/Machine-Learning-Regression/assets/112512011/e5934328-5dc7-4e3b-b29c-1a97409a24c3)
-![image](https://github.com/sammycpark/Machine-Learning-Regression/assets/112512011/5a0267c9-e697-4e13-a1fd-7cc51476b2a0)
-![image](https://github.com/sammycpark/Machine-Learning-Regression/assets/112512011/e6485567-eb9d-4c53-80e6-6bbff4f50d40)
-![image](https://github.com/sammycpark/Machine-Learning-Regression/assets/112512011/b0475322-63f7-4d1c-a268-baea15a311fb)
-![image](https://github.com/sammycpark/Machine-Learning-Regression/assets/112512011/c8df8aa6-bd5e-4bf7-9d83-24305134f3bd)
+![image](https://github.com/pimeas/Machine-Learning/assets/112512011/734c60ff-a600-4adc-8aca-c96420d685c5)
+
+![image](https://github.com/pimeas/Machine-Learning/assets/112512011/008746d8-468e-416c-a3f1-e798fbfaecb7)
+
+![image](https://github.com/pimeas/Machine-Learning/assets/112512011/4ae417fb-660c-4b6e-bd9a-043b502f5c2b)
+
+
+![image](https://github.com/pimeas/Machine-Learning/assets/112512011/d6298918-07da-4453-b156-2c1c4fcadd1e)
+
+![image](https://github.com/pimeas/Machine-Learning/assets/112512011/9ff37ced-163c-4fc8-8df4-488ffb623bda)
+
 
 #### With a beta value of 3, the graphs depict the 1st, 15th, 25th, 35th and 50th data inputted.
-![image](https://github.com/sammycpark/Machine-Learning-Regression/assets/112512011/0930c67a-2210-4142-9415-6edb199f7baa)
-![image](https://github.com/sammycpark/Machine-Learning-Regression/assets/112512011/829d85ed-7b0b-4395-8dbd-59e68e4412b5)
-![image](https://github.com/sammycpark/Machine-Learning-Regression/assets/112512011/d7c5e7d0-7884-4454-9196-daf262e8bf1f)
-![image](https://github.com/sammycpark/Machine-Learning-Regression/assets/112512011/a1d0fca2-1c61-43e3-80dc-7093152b6b9f)
-![image](https://github.com/sammycpark/Machine-Learning-Regression/assets/112512011/935896fb-32a7-46de-a61b-c1aded79d965)
+![image](https://github.com/pimeas/Machine-Learning/assets/112512011/179822ba-6292-4957-8b45-9162801cefdf)
+
+![image](https://github.com/pimeas/Machine-Learning/assets/112512011/b61a74d5-22fa-411e-bdf3-27e5a4f90536)
+
+![image](https://github.com/pimeas/Machine-Learning/assets/112512011/a8859bfe-868e-4dd3-86e2-3517b7ecee10)
+
+![image](https://github.com/pimeas/Machine-Learning/assets/112512011/d545bcae-9f54-4856-9f89-cceb3e0a5491)
+
+![image](https://github.com/pimeas/Machine-Learning/assets/112512011/c3068140-5e78-4bde-b3d0-b8f8dda9c1fc)
+
 #### The best prediction was setting the beta value to 15. 
 
 ### The value of beta determines the variance of the noise added to the prediction values. For the models above, the mean is zero and the variance is set to inverse beta, so: smaller beta values show larger error bars. That is why having the beta at 15 have minimized error bars.
